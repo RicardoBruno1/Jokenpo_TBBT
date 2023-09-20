@@ -23,3 +23,7 @@ Este projeto consiste em um jogo de Jokenpo onde o usuário enfrenta a máquina.
 - [ ] Desenvolver a parte de JavaScript
 - [ ] Corrigir barra de rolagem que aparece quando mostra um ganhador
 - [ ] Deixar a imagem das regras sobreposto ao jogo, para que as imagens das mãos fiquem centralizadas
+
+## 🎨 Imagem do Projeto
+
+<p align="center"><img src="./assets/img/mockup/smartmockups.jpg" width="800px"><p/>
