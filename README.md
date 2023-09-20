@@ -9,12 +9,17 @@ Este projeto consiste em um jogo de Jokenpo onde o usuário enfrenta a máquina.
 - CSS3
 - JavaScript
 
-<br>
+## Adaptações feitas
+
+- Incluido placar para empate e notificação de vencedor
+- Jogo encerra após ganhador ser exibido
+- Imagem contendo regras do jogo
+- Botão para reiniciar partida
 
 ## 📝 PENDÊNCIAS:
 
 - [ ] Deixar projeto responsivo
 - [ ] Adicionar mockup com telas desktop e mobile
-- [ ] Desenvolver a parte de JavaScritp
+- [ ] Desenvolver a parte de JavaScript
 - [ ] Corrigir barra de rolagem que aparece quando mostra um ganhador
-- [ ] Deixar a imagem das regras sobreposto ao jogo, para que as imagens das maos fiquem no centro
+- [ ] Deixar a imagem das regras sobreposto ao jogo, para que as imagens das mãos fiquem centralizadas
