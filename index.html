@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jokenpo TBBT</title>
+</head>
+
+<body>
+    <div class="rules-img">
+            <img src="assets/img/background/bg.png" alt="regras do jogo">
+    </div>
+    
+    <div class="container">
+        
+        <div class="hands-container">
+            <div class="left-container">
+                <div class="player-option" data-value="stone" data-selected="false">
+                    <img src="./assets/img/hands/rock.png" alt="stone">
+                </div>
+                <div class="player-option" data-value="paper" data-selected="false">
+                    <img src="./assets/img/hands/paper.png" alt="paper">
+                </div>
+                <div class="player-option" data-value="scissor" data-selected="false">
+                    <img src="./assets/img/hands/scissor.png" alt="scissor">
+                </div>
+                <div class="player-option" data-value="lizard" data-selected="false">
+                    <img src="assets/img/hands/lizard.png" alt="lizard">
+                </div>
+                <div class="player-option" data-value="lizard" data-selected="false">
+                    <img src="assets/img/hands/spock.png" alt="spock">
+                </div>
+            </div>
+
+            <div class="right-container">
+                <div class="enemy-option" data-value="stone" data-selected="false">
+                    <img src="./assets/img/hands/rock.png" alt="stone">
+                </div>
+                <div class="enemy-option" data-value="paper" data-selected="false">
+                    <img src="./assets/img/hands/paper.png" alt="paper">
+                </div>
+                <div class="enemy-option" data-value="scissor" data-selected="false">
+                    <img src="./assets/img/hands/scissor.png" alt="scissor">
+                </div>
+                <div class="enemy-option" data-value="lizard" data-selected="false">
+                    <img src="assets/img/hands/lizard.png" alt="lizard">
+                </div>
+                <div class="enemy-option" data-value="lizard" data-selected="false">
+                    <img src="assets/img/hands/spock.png" alt="spock">
+                </div>
+            </div>
+        </div>
+
+        <div class="score">
+            <p>Player 1: <span class="your-score">0</span></p>
+            <p>IA: <span class="computer-score">0</span></p>
+            <p>Empate: <span class="draw-score">0</span></p>
+            
+        </div>
+        <div class="score" style="justify-content: center;"><p>Resultado: <span class="result-message"></span></p></div>
+        <button class="restart-button" style="display: none;">Reiniciar</button>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

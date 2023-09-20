@@ -1,0 +1,8 @@
+1 - Corrigir barra de rolagem que aparece quando mostra um ganhador
+2 - Ajeitar a logica do jogo
+3 - Corrrigir responsividade
+4 - Deixar a imagem das regras sobreposto ao jogo, para que as imagens das maos fiquem no centro
+5 - Melhorar a mensagem de vencedor na tela. decidir entre um alert ou mensagem direto no innerHTML
+
+
+

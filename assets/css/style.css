@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+@import url('./animation.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+:root {
+    font-size: 62.5%;
+    --bc-color: radial-gradient(circle, #b3abc5, #938ca1, #6e6978);
+    --ff-body: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-size: 1.6rem;
+    background: var(--bc-color);
+    font-family: var(--ff-body);
+}
+
+body::after {
+    content: '';
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    mix-blend-mode: soft-light;
+    pointer-events: none;
+}
+
+img {
+    width: 12rem;
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, .4)) brightness(85%);
+    transition: all .2s;
+    animation: float 3s ease-in-out infinite;
+    clip-path: circle(50%);
+}
+
+p {
+    font-size: 1.6rem;
+    width: 100px;
+}
+.rules-img img {
+    width: 300px;
+    clip-path: none;
+    animation: none
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    transition: .3s;
+}
+
+.container .hands-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    cursor: pointer;
+    transform: scaleX(-1);
+}
+
+.left-container,
+.right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.player-option,
+.enemy-option {
+    opacity: .65;
+}
+
+.player-option:hover {
+    opacity: 1;
+}
+
+.animate {
+    -webkit-animation: shake-right 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    animation: shake-right 0.7s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+.score {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.restart-button {
+    background: #585a91;
+    color: #fff;
+    border-style: outset;
+    border-radius: 8px;
+    height: 40px;
+    width: 80px;
+    font-family: var(--ff-body);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.restart-button:hover {
+    background: #46498d;
+    color: #fff;
+}
+
+@media (min-width: 500px) {
+
+    img {
+        width: 10rem;
+    }
+
+    .container {
+        width: 30rem;
+    }
+}
